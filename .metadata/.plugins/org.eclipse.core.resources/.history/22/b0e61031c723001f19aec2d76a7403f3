@@ -1,0 +1,34 @@
+package org.scanner;
+
+public class Scannerexample {
+
+	
+	
+
+	//main method
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		
+		       
+		        // Prompt the user for input
+		        System.out.print("Enter your name: ");
+		        String name = Scanner.nextLine();
+
+		        System.out.print("Enter your age: ");
+		        int age = Scanner.nextInt();
+
+		        // Print the input values
+		        System.out.println("Hello, " + name + "! You are " + age + " years old.");
+
+		        // Close the Scanner object
+		        Scanner.close();
+		    }
+
+	
+	}
+		
+		
+	}
+
